@@ -6,7 +6,6 @@
 * Return: 0 if exited properly, non-zer otherwise
 */
 int main(void)
-
 {
 
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
@@ -14,5 +13,6 @@ int main(void)
 	printf("Size of a long int: %lu byte(s)\n", sizeof(long int));
 	printf("Size of a long ilong int: %lu byte(s)\n", sizeof(long long int));
 	printf("Size of a float: %lu byte(s)\n", sizeof(float));
+
 	return (0);
 }
