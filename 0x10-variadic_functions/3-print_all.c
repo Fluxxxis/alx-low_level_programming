@@ -12,14 +12,12 @@ void print_all(const char * const format, ...)
 	va_list list;
 
 	va_start(list, format);
-
 	if (format)
 	{
 		while (format[i])
 		{
 			switch (format[i])
 			{
-
 				case 'c':
 					printf("%s%c", sep, va_arg(list, int));
 					break;
@@ -43,7 +41,6 @@ void print_all(const char * const format, ...)
 			i++;
 		}
 	}
-
 	printf("\n");
 	va_end(list);
 }
